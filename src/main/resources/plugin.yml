@@ -1,0 +1,6 @@
+name: XHMVote2
+version: '1.0-SNAPSHOT'
+main: cn.mrxhm.xHMVote2.XHMVote2
+api-version: '1.20'
+authors: [ Mr_XHM ]
+description: vote plugin
