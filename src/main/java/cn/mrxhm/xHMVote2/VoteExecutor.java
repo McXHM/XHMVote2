@@ -1,2 +1,11 @@
-package cn.mrxhm.xHMVote2;public @interface VoteExecutor {
+package cn.mrxhm.xHMVote2;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface VoteExecutor {
 }

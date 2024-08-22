@@ -1,0 +1,41 @@
+prefix: '&8[&aXHMVote2&8]'
+side: '&9+-----------------------------+'
+help: '&a输入/vote join %uuid%参与投票'
+vote-setting:
+  kick:
+    ratio: 0.6
+    msg:
+      - '&4%target% &c被群众的怒火淹没！'
+  kill:
+    ratio: 0.5
+    msg:
+      - '&4%target% &4遭受天谴！'
+  freeze:
+    ratio: 0.4
+    msg:
+      - '&4%target% &b被冰封！'
+vote-msg:
+  kick:
+    - '%side%'
+    - '&a%voter% &d发起了一轮对 &c%target% &d的投票'
+    - '&b投票类型：%type%'
+    - '&d投票理由：%reason%'
+    - '&6裁决比例：%max_ratio%'
+    - '%help%'
+    - '%side%'
+  kill:
+    - '%side%'
+    - '&a%voter% &d发起了一轮对 &c%target% &d的投票'
+    - '&b投票类型：%type%'
+    - '&d投票理由：%reason%'
+    - '&6裁决比例：%max_ratio%'
+    - '%help%'
+    - '%side%'
+  freeze:
+    - '%side%'
+    - '&a%voter% &d发起了一轮对 &c%target% &d的投票'
+    - '&b投票类型：%type%'
+    - '&d投票理由：%reason%'
+    - '&6裁决比例：%max_ratio%'
+    - '%help%'
+    - '%side%'

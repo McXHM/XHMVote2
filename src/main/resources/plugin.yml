@@ -4,3 +4,27 @@ main: cn.mrxhm.xHMVote2.XHMVote2
 api-version: '1.20'
 authors: [ Mr_XHM ]
 description: vote plugin
+commands:
+  vote:
+    description: vote command
+  freeze:
+    description: freeze command
+    permission: xhmvote2.freeze
+permissions:
+  xhmvote2.vote.*:
+    default: op
+    children:
+      xhmchat2.vote.create: true
+      xhmvote2.vote.join: true
+      xhmvote2.vote.stop: true
+      xhmvote2.vote.bypass: true
+  xhmvote2.vote.create:
+    default: op
+  xhmvote2.vote.join:
+    default: true
+  xhmvote2.vote.stop:
+    default: op
+  xhmvote2.vote.bypass:
+    default: op
+  xhmvote2.freeze:
+    default: op
