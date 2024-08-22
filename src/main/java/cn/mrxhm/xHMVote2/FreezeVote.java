@@ -1,11 +1,11 @@
 package cn.mrxhm.xHMVote2;
 
-import org.bukkit.Bukkit;
-import org.bukkit.command.Command;
-import org.bukkit.command.CommandExecutor;
-import org.bukkit.command.CommandSender;
+
 import org.bukkit.entity.Player;
 
+/**
+ * @author Mr_XHM
+ */
 @XHMVoteType(type = "freeze")
 public class FreezeVote extends Vote {
     public FreezeVote(Player voter, Player target) {
